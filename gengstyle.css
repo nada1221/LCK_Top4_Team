@@ -1,0 +1,42 @@
+body{
+  margin:0;
+}
+a {
+  color:black;
+text-decoration: none;
+}
+h1 {
+  font-size:45px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right:1px solid gray;
+  width:115px;
+  margin:0;
+  padding:20px;
+}
+
+#Team_List{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#Team_List ol{
+  padding-left:38px;
+}
+#grid #Main_description{
+  padding-left:40px;
+}
+@media(max-width:800px){
+  #Team_List{
+    display:block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+}
